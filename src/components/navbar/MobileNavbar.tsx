@@ -1,11 +1,7 @@
-import { Button } from "@/components/ui/button"
+
 import {
     Dialog,
     DialogContent,
-    DialogDescription,
-    DialogFooter,
-    DialogHeader,
-    DialogTitle,
     DialogTrigger,
 } from "@/components/ui/dialog"
 import { LucideMenu } from "lucide-react"
@@ -17,7 +13,7 @@ export function MobileNavbar() {
             <DialogTrigger asChild>
                 <LucideMenu
                     size={30}
-                    className="md:hidden cursor-pointer"
+                    className="cursor-pointer"
                 />
             </DialogTrigger>
             <DialogContent className="h-[70dvh] rounded-xl py-16">

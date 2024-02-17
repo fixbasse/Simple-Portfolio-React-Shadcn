@@ -1,8 +1,11 @@
-import React from 'react'
 import { Button } from '../ui/button'
 import { LightbulbIcon } from 'lucide-react'
 
 const Hero = () => {
+    const saveFile = () => {
+
+    };
+
     return (
         <div className='flex items-center justify-center h-screen p-4'>
             <section className='flex flex-col items-center justify-center gap-2'>
@@ -18,11 +21,13 @@ const Hero = () => {
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis voluptates temporibus provident, dicta eveniet veritatis repudiandae vitae aliquam omnis.
                 </p>
 
-                <Button
-                    className='w-[300px] mt-2 rounded-full'
-                >
-                    Download My CV
-                </Button>
+                <a href="/Wongsapat-CV.pdf" download>
+                    <Button
+                        className='w-[300px] mt-2 rounded-full'
+                    >
+                        Download My CV
+                    </Button>
+                </a>
             </section>
         </div>
     )

@@ -3,22 +3,22 @@ import { CompassIcon, File, LucideListCollapse, SearchCheck } from 'lucide-react
 const aboutData = [
     {
         icon: <CompassIcon size={80} className='text-primary' />,
-        label: 'Access your files, anywhere',
+        label: 'HTML, CSS And JAVASCRIPT',
         desc: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus amet similique nihil sunt eius aliquid quibusdam ipsam, numquam adipisci, dolorem ut ver'
     },
     {
         icon: <SearchCheck size={80} className='text-primary' />,
-        label: 'Security you can trust',
+        label: 'React & NextJS',
         desc: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus amet similique nihil sunt eius aliquid quibusdam ipsam, numquam adipisci, dolorem ut ver'
     },
     {
         icon: <LucideListCollapse size={80} className='text-primary' />,
-        label: 'Realtime collaboration',
+        label: 'NodeJS & Express',
         desc: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus amet similique nihil sunt eius aliquid quibusdam ipsam, numquam adipisci, dolorem ut ver'
     },
     {
         icon: <File size={80} className='text-primary' />,
-        label: 'Store any type of files',
+        label: 'MongoDB & MySQL',
         desc: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus amet similique nihil sunt eius aliquid quibusdam ipsam, numquam adipisci, dolorem ut ver'
     },
 ]
@@ -33,7 +33,7 @@ const Skill = () => {
                 {aboutData.map((item) => (
                     <section
                         key={item.label}
-                        className='flex flex-col justify-center items-center gap-4'>
+                        className='flex flex-col justify-center items-center gap-4 hover:scale-90 duration-500'>
 
                         <span className=' text-primary-foreground'>
                             {item.icon}

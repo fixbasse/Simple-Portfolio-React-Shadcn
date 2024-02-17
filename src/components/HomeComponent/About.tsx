@@ -1,7 +1,10 @@
-import { LucideFolderCog2 } from 'lucide-react'
-import React from 'react'
+import { LucideFolderCog2, Youtube } from 'lucide-react'
 
 const About = () => {
+    const openYoutube = () => {
+        window.open('https://www.youtube.com/watch?v=4631sx8CfdY')
+    };
+
     return (
         <div
             id='about'
@@ -10,7 +13,7 @@ const About = () => {
             <section className='flex flex-col text-center md:text-left md:flex-row items-center w-full'>
                 <div className='flex-1'>
                     <LucideFolderCog2
-                        size={500}
+                        size={400}
                         className='text-primary hidden md:block'
                     />
                     <LucideFolderCog2
@@ -20,7 +23,7 @@ const About = () => {
                 </div>
 
 
-                <div className='flex-1 flex flex-col gap-2'>
+                <div className='flex-1 flex flex-col gap-4'>
                     <h2 className='text-4xl'>
                         Wongsapat Sungsean
                     </h2>
@@ -30,6 +33,13 @@ const About = () => {
                     <p className='text-sm text-muted-foreground'>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo impedit recusandae nostrum illum, omnis modi officiis ab dolor eius aperiam eveniet blanditiis
                     </p>
+
+                    <button
+                        onClick={openYoutube}
+                        className='flex items-center justify-center md:justify-start gap-2 underline hover:no-underline text-primary font-semibold'>
+                        Checkout my music career
+                        <Youtube size={30} />
+                    </button>
                 </div>
             </section>
         </div>
