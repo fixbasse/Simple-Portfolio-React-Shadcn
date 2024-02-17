@@ -21,13 +21,13 @@ const projectData = [
 ]
 
 const Project = () => {
-    const openBnb = () => {
-        window.open('https://weerisprofile-5c610.web.app/?fbclid=IwAR1iyWw1UpV8LUgKni9jMYg8J7o79kPwUn2TnAPL4dY2e7eWJbeLtFL8lH8')
-    };
+    // const openBnb = () => {
+    //     window.open('https://weerisprofile-5c610.web.app/?fbclid=IwAR1iyWw1UpV8LUgKni9jMYg8J7o79kPwUn2TnAPL4dY2e7eWJbeLtFL8lH8')
+    // };
 
-    const openMusician = () => {
-        window.open('https://bnb-next-auth-prisma.vercel.app/')
-    }
+    // const openMusician = () => {
+    //     window.open('https://bnb-next-auth-prisma.vercel.app/')
+    // }
 
     return (
         <div

@@ -2,9 +2,6 @@ import { Button } from '../ui/button'
 import { LightbulbIcon } from 'lucide-react'
 
 const Hero = () => {
-    const saveFile = () => {
-
-    };
 
     return (
         <div className='flex items-center justify-center h-screen p-4'>
