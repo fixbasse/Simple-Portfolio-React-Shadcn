@@ -32,7 +32,7 @@ const Project = () => {
     return (
         <div
             id='project'
-            className='md:h-screen flex flex-col gap-8 md:gap-20 items-center justify-center p-4 md:px-20'>
+            className='md:h-scree flex flex-col gap-8 md:gap-20 items-center justify-center p-4 md:px-20'>
 
             <h1 className="text-2xl md:text-3xl font-semibold">
                 My Project

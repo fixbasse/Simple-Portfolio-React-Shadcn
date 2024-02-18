@@ -27,9 +27,9 @@ const Skill = () => {
     return (
         <div
             id='skill'
-            className='md:h-screen flex items-center justify-center p-4 md:px-20'>
+            className='lg:h-screen flex items-center justify-center p-4 md:px-20 max-[1024px]:my-20'>
 
-            <div className='grid md:grid-cols-2 w-full h-full gap-8'>
+            <div className='grid md:grid-cols-2 w-full lg:h-full gap-8'>
                 {aboutData.map((item) => (
                     <section
                         key={item.label}

@@ -8,7 +8,7 @@ const About = () => {
     return (
         <div
             id='about'
-            className='flex items-center justify-center h-screen p-4 md:px-20'>
+            className='flex items-center justify-center lg:h-screen p-4 md:px-20'>
 
             <section className='flex flex-col text-center lg:text-left lg:flex-row items-center w-full'>
                 <div className='flex-1'>

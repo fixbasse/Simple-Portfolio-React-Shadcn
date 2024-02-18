@@ -4,8 +4,9 @@ import { LightbulbIcon } from 'lucide-react'
 const Hero = () => {
 
     return (
-        <div className='flex items-center justify-center h-screen p-4'>
-            <section className='flex flex-col items-center justify-center gap-2'>
+        <div className='flex items-center justify-center lg:h-screen p-4'>
+            {/* TEXT */}
+            <section className='flex flex-col items-center justify-center gap-2 max-[1024px]:my-44'>
                 <LightbulbIcon
                     size={200}
                     className='text-primary'

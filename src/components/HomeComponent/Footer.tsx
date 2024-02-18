@@ -4,7 +4,7 @@ import { Button } from '../ui/button'
 
 const Footer = () => {
     return (
-        <div className='md:h-screen flex flex-col justify-between items-center'>
+        <div className='lg:h-screen flex flex-col justify-between items-center'>
 
             {/* SEND EMAIL */}
             <div className='flex flex-col items-center justify-center h-[70vh]'>
@@ -26,8 +26,8 @@ const Footer = () => {
                 </div>
             </div>
 
-
-            <footer className='md:h-[30dvh] w-full grid md:grid-cols-3 gap-10 md:gap-14 bg-gray-50 dark:bg-gray-900 p-4 md:py-8 md:px-20'>
+            {/* CONTENT ==============> */}
+            <footer className='lg:h-[30dvh] w-full grid md:grid-cols-3 gap-10 md:gap-14 bg-gray-50 dark:bg-gray-900 p-4 md:py-8 md:px-20'>
                 <section className='flex flex-col gap-8'>
                     <h2 className='font-bold text-3xl'>
                         Logo

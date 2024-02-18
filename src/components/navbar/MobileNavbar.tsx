@@ -16,9 +16,10 @@ export function MobileNavbar() {
                     className="cursor-pointer"
                 />
             </DialogTrigger>
-            <DialogContent className="h-[70dvh] rounded-xl py-16">
+            
+            <DialogContent className="rounded-xl max-[1024px]:h-full overflow-auto lg:py-16">
 
-                <div className="flex flex-col justify-between items-center text-3xl font-medium text-muted-foregroun">
+                <div className="flex flex-col gap-4 items-center text-3xl font-medium">
                     <a href="#skill">
                         Skill
                     </a>
