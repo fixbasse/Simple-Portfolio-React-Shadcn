@@ -38,7 +38,7 @@ const Project = () => {
                 My Project
             </h1>
 
-            <section className='grid md:grid-cols-3 w-full gap-8'>
+            <section className='grid md:grid-cols-2 lg:grid-cols-3 w-full gap-8'>
                 {projectData.map((item) => (
                     <div
                         key={item.label}
@@ -51,7 +51,7 @@ const Project = () => {
                         />
 
                         <article className="p-4 bg-gray-50 dark:bg-gray-900 rounded-b-lg">
-                            <p className="text-sm text-muted-foreground">
+                            <p className="text-sm font-light">
                                 {item.desc}
                             </p>
 

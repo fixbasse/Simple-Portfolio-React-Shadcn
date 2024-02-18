@@ -7,11 +7,11 @@ const Footer = () => {
         <div className='md:h-screen flex flex-col justify-between items-center'>
 
             {/* SEND EMAIL */}
-            <div className='flex flex-col items-center justify-center h-screen md:h-[70vh]'>
+            <div className='flex flex-col items-center justify-center h-[70vh]'>
                 <h2 className='text-2xl font-semibold'>
                     Let's work together!
                 </h2>
-                <p className='text-muted-foreground text-center px-4'>
+                <p className='text-center px-4 font-light'>
                     I'll lend you my wisdom, just tell me your goal. Hope to hear from you soon.
                 </p>
 
@@ -36,7 +36,7 @@ const Footer = () => {
                     <div className='flex gap-4 text-sm'>
                         <MapPin />
 
-                        <p className='text-muted-foreground'>
+                        <p className=' font-light'>
                             Pinklao, Boromratchonnani 30, Taling Chan Bangkok 10170
                         </p>
                     </div>
@@ -47,7 +47,7 @@ const Footer = () => {
                     <div className='flex items-center gap-4'>
                         <Phone />
 
-                        <div className='flex flex-col text-muted-foreground'>
+                        <div className='flex flex-col font-light'>
                             <span>
                                 081-405-0169
                             </span>
@@ -60,7 +60,7 @@ const Footer = () => {
                     <div className='flex items-center gap-4'>
                         <Mail />
 
-                        <div className='flex flex-col text-muted-foreground'>
+                        <div className='flex flex-col font-light'>
                             <span>
                                 fix_kaow@hotmail.com
                             </span>
@@ -72,21 +72,21 @@ const Footer = () => {
                     <div className='flex items-center gap-4'>
                         <LucideFacebook />
 
-                        <div className='flex flex-col gap-2 text-muted-foreground'>
+                        <div className='flex flex-col gap-2 font-light'>
                             Fix Wongsapat
                         </div>
                     </div>
                     <div className='flex items-center gap-4'>
                         <InstagramIcon />
 
-                        <div className='flex flex-col gap-2 text-muted-foreground'>
+                        <div className='flex flex-col gap-2 font-light'>
                             fuxBasee
                         </div>
                     </div>
                 </section>
 
                 <div className='font-bold text-3xl'>
-                    Logo
+                    
                 </div>
             </footer>
         </div>

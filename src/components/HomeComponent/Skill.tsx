@@ -35,7 +35,7 @@ const Skill = () => {
                         key={item.label}
                         className='flex flex-col justify-center items-center gap-4 hover:scale-90 duration-500'>
 
-                        <span className=' text-primary-foreground'>
+                        <span className='text-primary-foreground'>
                             {item.icon}
                         </span>
 
@@ -43,7 +43,7 @@ const Skill = () => {
                             <h3 className='font-semibold'>
                                 {item.label}
                             </h3>
-                            <p className='text-sm text-muted-foreground md:w-[70%]'>
+                            <p className='text-sm font-light md:w-[70%]'>
                                 {item.desc}
                             </p>
                         </div>

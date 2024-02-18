@@ -14,7 +14,7 @@ const Hero = () => {
                 <h1 className='text-2xl font-bold text-center'>
                     Web Developer Portfolio
                 </h1>
-                <p className='md:w-[500px] text-center text-muted-foreground text-sm'>
+                <p className='md:w-[500px] text-center font-light text-sm'>
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis voluptates temporibus provident, dicta eveniet veritatis repudiandae vitae aliquam omnis.
                 </p>
 
