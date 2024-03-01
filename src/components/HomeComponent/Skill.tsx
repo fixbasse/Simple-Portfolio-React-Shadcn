@@ -33,7 +33,7 @@ const Skill = () => {
                 {aboutData.map((item) => (
                     <section
                         key={item.label}
-                        className='flex flex-col justify-center items-center gap-4 hover:scale-90 duration-500'>
+                        className='flex flex-col justify-center items-center gap-4 hover:scale-90 duration-500 leading-tight'>
 
                         <span className='text-primary-foreground'>
                             {item.icon}

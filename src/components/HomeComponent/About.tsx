@@ -27,10 +27,10 @@ const About = () => {
                     <h2 className='text-4xl'>
                         Wongsapat Sungsean
                     </h2>
-                    <p className='text-sm font-light'>
+                    <p className='text-sm font-light leading-tight'>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo impedit recusandae nostrum illum, omnis modi officiis ab dolor eius aperiam eveniet blanditiis fugiat ad
                     </p>
-                    <p className='text-sm font-light'>
+                    <p className='text-sm font-light leading-tight'>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo impedit recusandae nostrum illum, omnis modi officiis ab dolor eius aperiam eveniet blanditiis
                     </p>
 

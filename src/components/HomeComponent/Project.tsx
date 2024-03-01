@@ -51,7 +51,7 @@ const Project = () => {
                         />
 
                         <article className="p-4 bg-gray-50 dark:bg-gray-900 rounded-b-lg">
-                            <p className="text-sm font-light">
+                            <p className="text-sm font-light leading-tight">
                                 {item.desc}
                             </p>
 
